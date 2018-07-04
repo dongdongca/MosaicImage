@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F5BB205920EB59D4007B73F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB205820EB59D4007B73F4 /* AppDelegate.m */; };
-		F5BB205C20EB59D4007B73F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB205B20EB59D4007B73F4 /* ViewController.m */; };
-		F5BB205F20EB59D4007B73F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BB205D20EB59D4007B73F4 /* Main.storyboard */; };
 		F5BB206120EB59D6007B73F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BB206020EB59D6007B73F4 /* Assets.xcassets */; };
 		F5BB206420EB59D6007B73F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BB206220EB59D6007B73F4 /* LaunchScreen.storyboard */; };
 		F5BB206720EB59D6007B73F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB206620EB59D6007B73F4 /* main.m */; };
+		F5BB207F20EC98AC007B73F4 /* iconviewimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5BB207E20EC98AC007B73F4 /* iconviewimage.jpg */; };
+		F5BB208320EC98BC007B73F4 /* ImageUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5BB208220EC98BC007B73F4 /* ImageUtils.mm */; };
+		F5BB208520EC98C3007B73F4 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5BB208420EC98C3007B73F4 /* ViewController.mm */; };
+		F5BB208720EC98D8007B73F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BB208620EC98D7007B73F4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,15 @@
 		F5BB205720EB59D4007B73F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5BB205820EB59D4007B73F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F5BB205A20EB59D4007B73F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F5BB205B20EB59D4007B73F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F5BB205E20EB59D4007B73F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5BB206020EB59D6007B73F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5BB206320EB59D6007B73F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5BB206520EB59D6007B73F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5BB206620EB59D6007B73F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5BB207E20EC98AC007B73F4 /* iconviewimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iconviewimage.jpg; sourceTree = "<group>"; };
+		F5BB208120EC98BC007B73F4 /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		F5BB208220EC98BC007B73F4 /* ImageUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageUtils.mm; sourceTree = "<group>"; };
+		F5BB208420EC98C3007B73F4 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		F5BB208620EC98D7007B73F4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +63,36 @@
 		F5BB205620EB59D4007B73F4 /* OpenCV-简单处理马赛克 */ = {
 			isa = PBXGroup;
 			children = (
+				F5BB208020EC98BC007B73F4 /* Utils */,
+				F5BB207D20EC98AC007B73F4 /* testImage */,
 				F5BB205720EB59D4007B73F4 /* AppDelegate.h */,
 				F5BB205820EB59D4007B73F4 /* AppDelegate.m */,
 				F5BB205A20EB59D4007B73F4 /* ViewController.h */,
-				F5BB205B20EB59D4007B73F4 /* ViewController.m */,
-				F5BB205D20EB59D4007B73F4 /* Main.storyboard */,
+				F5BB208420EC98C3007B73F4 /* ViewController.mm */,
+				F5BB208620EC98D7007B73F4 /* Main.storyboard */,
 				F5BB206020EB59D6007B73F4 /* Assets.xcassets */,
 				F5BB206220EB59D6007B73F4 /* LaunchScreen.storyboard */,
 				F5BB206520EB59D6007B73F4 /* Info.plist */,
 				F5BB206620EB59D6007B73F4 /* main.m */,
 			);
 			path = "OpenCV-简单处理马赛克";
+			sourceTree = "<group>";
+		};
+		F5BB207D20EC98AC007B73F4 /* testImage */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB207E20EC98AC007B73F4 /* iconviewimage.jpg */,
+			);
+			path = testImage;
+			sourceTree = "<group>";
+		};
+		F5BB208020EC98BC007B73F4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F5BB208120EC98BC007B73F4 /* ImageUtils.h */,
+				F5BB208220EC98BC007B73F4 /* ImageUtils.mm */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +154,8 @@
 			files = (
 				F5BB206420EB59D6007B73F4 /* LaunchScreen.storyboard in Resources */,
 				F5BB206120EB59D6007B73F4 /* Assets.xcassets in Resources */,
-				F5BB205F20EB59D4007B73F4 /* Main.storyboard in Resources */,
+				F5BB207F20EC98AC007B73F4 /* iconviewimage.jpg in Resources */,
+				F5BB208720EC98D8007B73F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +166,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5BB205C20EB59D4007B73F4 /* ViewController.m in Sources */,
+				F5BB208320EC98BC007B73F4 /* ImageUtils.mm in Sources */,
+				F5BB208520EC98C3007B73F4 /* ViewController.mm in Sources */,
 				F5BB206720EB59D6007B73F4 /* main.m in Sources */,
 				F5BB205920EB59D4007B73F4 /* AppDelegate.m in Sources */,
 			);
@@ -150,14 +176,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F5BB205D20EB59D4007B73F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5BB205E20EB59D4007B73F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5BB206220EB59D6007B73F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
